@@ -38,7 +38,7 @@ class ViewController: UIViewController {
 //        vc.view.frame = CGRect(x: 0, y: 164, width: width, height: height - 64)
 ////        self.present(vc, animated: true, completion: nil)
 //        addChildViewController(vc)
-//        eatvc?.removeFromParentViewController()
+        eatvc?.removeFromParentViewController()
         eatvc?.view.removeFromSuperview()
 
 
