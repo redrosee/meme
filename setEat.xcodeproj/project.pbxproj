@@ -15,6 +15,9 @@
 		1CCB19821FB2A276004B290A /* setEatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB19811FB2A276004B290A /* setEatUITests.swift */; };
 		1CCB19901FB2AD86004B290A /* eatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB198F1FB2AD86004B290A /* eatingVC.swift */; };
 		1CCB19921FB2AEE1004B290A /* theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB19911FB2AEE1004B290A /* theme.swift */; };
+		1CCB19951FB2F886004B290A /* UILabel+life.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB19941FB2F886004B290A /* UILabel+life.swift */; };
+		1CCB19971FB2FBD5004B290A /* UIImageView+life.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB19961FB2FBD5004B290A /* UIImageView+life.swift */; };
+		1CCB19991FB2FF0F004B290A /* UIButton+life.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB19981FB2FF0F004B290A /* UIButton+life.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		1CCB19831FB2A276004B290A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CCB198F1FB2AD86004B290A /* eatingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eatingVC.swift; sourceTree = "<group>"; };
 		1CCB19911FB2AEE1004B290A /* theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = theme.swift; sourceTree = "<group>"; };
+		1CCB19941FB2F886004B290A /* UILabel+life.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+life.swift"; sourceTree = "<group>"; };
+		1CCB19961FB2FBD5004B290A /* UIImageView+life.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+life.swift"; sourceTree = "<group>"; };
+		1CCB19981FB2FF0F004B290A /* UIButton+life.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+life.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		1CCB19601FB2A276004B290A /* setEat */ = {
 			isa = PBXGroup;
 			children = (
+				1CCB19931FB2F842004B290A /* extension */,
 				1CCB19611FB2A276004B290A /* AppDelegate.swift */,
 				1CCB19631FB2A276004B290A /* ViewController.swift */,
 				1CCB19681FB2A276004B290A /* Assets.xcassets */,
@@ -126,6 +133,16 @@
 				1CCB19831FB2A276004B290A /* Info.plist */,
 			);
 			path = setEatUITests;
+			sourceTree = "<group>";
+		};
+		1CCB19931FB2F842004B290A /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				1CCB19941FB2F886004B290A /* UILabel+life.swift */,
+				1CCB19961FB2FBD5004B290A /* UIImageView+life.swift */,
+				1CCB19981FB2FF0F004B290A /* UIButton+life.swift */,
+			);
+			name = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +279,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CCB19641FB2A276004B290A /* ViewController.swift in Sources */,
+				1CCB19951FB2F886004B290A /* UILabel+life.swift in Sources */,
 				1CCB19921FB2AEE1004B290A /* theme.swift in Sources */,
 				1CCB19901FB2AD86004B290A /* eatingVC.swift in Sources */,
+				1CCB19991FB2FF0F004B290A /* UIButton+life.swift in Sources */,
+				1CCB19971FB2FBD5004B290A /* UIImageView+life.swift in Sources */,
 				1CCB19621FB2A276004B290A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +519,7 @@
 				1CCB19881FB2A276004B290A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CCB19891FB2A276004B290A /* Build configuration list for PBXNativeTarget "setEatTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +528,7 @@
 				1CCB198B1FB2A276004B290A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CCB198C1FB2A276004B290A /* Build configuration list for PBXNativeTarget "setEatUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +537,7 @@
 				1CCB198E1FB2A276004B290A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
